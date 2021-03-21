@@ -427,17 +427,26 @@
             </button>
             <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
             <div class="modal-form">
-                <div class="modal-name">
+                <div class="modal-item">
                     <label class="modal-word" for="name">Имя</label>
-                    <input class="modal-input" type="text" name="name" id="name" placeholder="Текст підказка">
+                    <input class="modal-input" type="text" name="name" id="name" placeholder=" ">
+                    <svg class="modal-icon" width="12" height="12">
+                        <use href="images/icons/sprite-icon-form.svg#icon-person-black-18dp-1"></use>
+                    </svg>
                 </div>
-                <div class="modal-tel">
+                <div class="modal-item">
                     <label class="modal-word" for="tel">Телефон</label>
-                    <input class="modal-input" type="tel" name="tel" id="tel" placeholder="Текст підказка">
+                    <input class="modal-input" type="tel" name="tel" id="tel" placeholder=" ">
+                    <svg class="modal-icon" width="12" height="12">
+                        <use href="images/icons/sprite-icon-form.svg#icon-phone-black-18dp-1"></use>
+                    </svg>
                 </div>
-                <div class="modal-mail">
+                <div class="modal-item">
                     <label class="modal-word" for="mail">Почта</label>
-                    <input class="modal-input" type="email" name="mail" id="mail" placeholder="Текст підказка">
+                    <input class="modal-input" type="email" name="mail" id="mail" placeholder=" ">
+                    <svg class="modal-icon" width="12" height="12">
+                        <use href="images/icons/sprite-icon-form.svg#icon-email-black-18dp-1"></use>
+                    </svg>
                 </div>
                 <div class="modal-text">
                     <label class="modal-word" for="comment">Комментарий</label>
@@ -445,9 +454,14 @@
                         placeholder="Введите текст"></textarea>
                 </div>
             </div>
-            <p>Чекбокс + Соглашаюсь с рассылкой и принимаю Условия договора</p>
+            <label class="checkbox-label">
+                <input class="checkbox" type="checkbox" name="topic" value="cofidintal" />
+                <span class="icon-check"></span>
+                <p class="text-condition">Соглашаюсь и рассылкой и принимаю
+                    <a class="link-condition" href="">Условия договора</a>
+                </p>
+            </label>
             <button class="modal-button">Отправить</button>
-
         </div>
     </div>
     <script src="./js/modal.js"></script>

@@ -919,6 +919,7 @@ opacity: 1;
   text-align: center;
   letter-spacing: 0.03em;
    color: #212121;
+   margin-bottom: 30px;
 }
   .button-close {
     position: absolute;
@@ -1050,9 +1051,49 @@ opacity: 1;
   margin-right: 10px;
   padding-left: 10px;
 }
-.modal-form * {
+/* .modal-form * {
   outline: 1px solid red;
-}
+} */
 .modal-name {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.modal-tel {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.modal-mail {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.modal-text {
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  
+}
+.modal-input {
+  width: 448px;
+  height: 40px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+}
+.modal-word {
+font-family: Roboto;
+font-weight: 400;
+font-size: 12px;
+line-height: 1.17;
+letter-spacing: 0.01em;
+margin-bottom: 4px;
+
+color: #757575;
+}
+.modal-frame {
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+}
 }

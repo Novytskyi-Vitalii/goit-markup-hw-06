@@ -1175,7 +1175,7 @@ border: 1px solid var(--black-color);
 border-radius: 2px;
 }
 .checkbox:checked + .icon-check {
-  background-image: url(./images/icons/.icon-check.svg);
+  background-image: url(../images/icons/iconcheck.svg);
   background-color: var(--blue-color);
   border-color: var(--blue-color);
   

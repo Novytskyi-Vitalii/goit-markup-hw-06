@@ -1175,9 +1175,10 @@ border: 1px solid var(--black-color);
 border-radius: 2px;
 }
 .checkbox:checked + .icon-check {
+  background-image: url(./images/icons/.icon-check.svg);
   background-color: var(--blue-color);
   border-color: var(--blue-color);
-  background-image: url(./images/icons/icon-check.svg);
+  
   background-size: contain;
   background-origin: content-border;
 }
